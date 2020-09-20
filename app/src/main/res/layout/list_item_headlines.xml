@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="clickListener"
+            type="android.view.View.OnClickListener"/>
+        <variable
+            name="news"
+            type="com.singhsoft.newsapp.headline.data.News"/>
+    </data>
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:onClick="@{clickListener}"
     android:background="@color/headline_list_bg">
 
     <androidx.cardview.widget.CardView
@@ -18,18 +29,23 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            >
 
             <ImageView
                 android:id="@+id/ivHeader"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_launcher_foreground" />
+                android:layout_height="280dp"
+                app:imageFromUrl="@{news.urlToImage}"
+                android:scaleType="fitXY" />
 
             <LinearLayout
+                android:background="@color/headline_list_bg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
+                android:padding="12dp"
+                android:alpha=".7"
                 android:orientation="vertical">
 
                 <TextView
@@ -37,14 +53,14 @@
                     style="@style/news_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:text="this is title" />
+                    tools:text="this is title"
+                    android:text="@{news.title}"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:layout_marginTop="24dp"
-                    android:layout_marginBottom="@dimen/activity_margin_top_bottom"
                     android:orientation="horizontal">
 
                     <TextView
@@ -52,6 +68,7 @@
                         style="@style/news_author"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:text="@{news.source.name}"
                         tools:text="CNN" />
 
                     <TextView
@@ -59,7 +76,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
-                        tools:text="2020-09-22"/>
+                        tools:text="2020-09-22"
+                        style="@style/news_author"
+                        android:text="@{news.publishedAt}"/>
 
                 </LinearLayout>
             </LinearLayout>
@@ -69,3 +88,4 @@
     </androidx.cardview.widget.CardView>
 
 </LinearLayout>
+</layout>

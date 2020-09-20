@@ -33,12 +33,6 @@ class NewsRepository @Inject constructor(private val dao: NewsDao,
             NewsPageDataSourceFactory.pagedListConfig()).build()
     }
 
-//    fun observeSet(id: String) = resultLiveData(
-//        databaseQuery = { dao.getLegoSet(id) },
-//        networkCall = { newsRemoteDataSource.fetchSet(id) },
-//        saveCallResult = { dao.insert(it) })
-//        .distinctUntilChanged()
-
 
     companion object {
 

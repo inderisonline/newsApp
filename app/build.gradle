@@ -9,6 +9,10 @@ android {
     compileSdkVersion rootProject.compileSdkVersion
     buildToolsVersion "30.0.2"
 
+    dataBinding {
+        enabled = true
+    }
+    
     defaultConfig {
         applicationId "com.singhsoft.newsapp"
         minSdkVersion rootProject.minSdkVersion
