@@ -6,6 +6,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.singhsoft.newsapp.R
 import com.singhsoft.newsapp.binding.bindImageFromUrl
+import com.singhsoft.newsapp.binding.bindUtcDateToIst
 import com.singhsoft.newsapp.di.Injectable
 import com.singhsoft.newsapp.di.injectViewModel
 import dagger.android.AndroidInjection
@@ -43,7 +44,7 @@ class NewsDetailActivity : AppCompatActivity(), Injectable {
             tvTitle.text = news.title
             bindImageFromUrl(ivImage, news.urlToImage)
             tvAuthor.text = news.source?.name
-            tvPublishedDate.text = news.publishedAt
+            bindUtcDateToIst(tvPublishedDate,news.publishedAt!!)
             tvContent.text = news.description
         })
     }

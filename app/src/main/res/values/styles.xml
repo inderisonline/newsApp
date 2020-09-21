@@ -21,28 +21,30 @@
 
     <style name="headline_header">
         <item name="android:textSize">29sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/roboto_slap_font</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="news_title">
         <item name="android:textSize">20sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/roboto_slap_font</item>
         <item name="android:textColor">@color/news_title</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
     <style name="news_author">
         <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/roboto_slap_font</item>
         <item name="android:textColor">@color/news_author</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="news_content">
         <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">@font/roboto_slap_font</item>
         <item name="android:textColor">@color/news_author</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
 </resources>

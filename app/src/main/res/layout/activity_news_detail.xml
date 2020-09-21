@@ -60,7 +60,7 @@
                 android:layout_weight=".5"
                 android:layout_gravity="start"
                 android:layout_height="wrap_content"
-                style="@style/news_author"
+                style="@style/news_title"
                 />
 
             <TextView
@@ -70,7 +70,7 @@
                 android:layout_gravity="end"
                 android:gravity="end"
                 android:layout_height="wrap_content"
-                style="@style/news_author"/>
+                style="@style/news_title"/>
 
         </LinearLayout>
 

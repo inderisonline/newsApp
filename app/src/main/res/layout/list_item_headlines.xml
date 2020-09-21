@@ -78,7 +78,7 @@
                         android:layout_marginStart="12dp"
                         tools:text="2020-09-22"
                         style="@style/news_author"
-                        android:text="@{news.publishedAt}"/>
+                        app:utcToIstDate="@{news.publishedAt}"/>
 
                 </LinearLayout>
             </LinearLayout>
