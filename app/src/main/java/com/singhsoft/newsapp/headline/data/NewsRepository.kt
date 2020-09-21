@@ -44,20 +44,4 @@ class NewsRepository @Inject constructor(
             NewsPageDataSourceFactory.pagedListConfig()
         ).build()
     }
-
-
-    companion object {
-
-        const val PAGE_SIZE = 20
-
-        // For Singleton instantiation
-        @Volatile
-        private var instance: NewsRepository? = null
-
-        fun getInstance(dao: NewsDao, newsRemoteDataSource: NewsRemoteDataSource) =
-            instance ?: synchronized(this) {
-                instance
-                    ?: NewsRepository(dao, newsRemoteDataSource).also { instance = it }
-            }
-    }
 }
