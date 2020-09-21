@@ -12,7 +12,10 @@ android {
     dataBinding {
         enabled = true
     }
-    
+    allOpen {
+        // allows mocking for classes w/o directly opening them for release builds
+        annotation 'com.singhsoft.newsapp.annotation.OpenClass'
+    }
     defaultConfig {
         applicationId "com.singhsoft.newsapp"
         minSdkVersion rootProject.minSdkVersion
@@ -28,6 +31,10 @@ android {
     }
 
     buildTypes {
+        debug {
+            testCoverageEnabled !project.hasProperty('android.injected.invoked.from.ide')
+        }
+
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -107,3 +114,4 @@ dependencies {
     androidTestImplementation "org.mockito:mockito-android:$rootProject.mockitoAndroidVersion"
 
 }
+
