@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "news", indices = [Index(value = ["url"], unique = true)])
 data class News(
     @PrimaryKey(autoGenerate = true)
-    val newsId: Int = 0,
+    val newsId: Int,
     val author: String?,
     val title: String?,
     val description: String?,
