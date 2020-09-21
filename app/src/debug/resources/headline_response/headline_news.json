@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Cointelegraph"
+      },
+      "author": "Cointelegraph By Helen Partz",
+      "title": "Wisconsin Assembly candidate is accepting Bitcoin donations again",
+      "description": "“Cryptocurrency is money,” argues a Wisconsin State Assembly candidate.",
+      "url": "https://cointelegraph.com/news/wisconsin-assembly-candidate-is-accepting-bitcoin-donations-again",
+      "urlToImage": "https://s3.eu-central-1.amazonaws.com/s3.cointelegraph.com/uploads/2020-09/67232697-daea-4284-9a8f-6004a183a35e.jpg",
+      "publishedAt": "2020-09-21T10:51:38Z",
+      "content": "A candidate for Wisconsin State Assembly is challenging a state regulator by accepting donations in cryptocurrencies like Bitcoin (BTC).\r\nPhil Anderson, a real estate broker and entrepreneur, now acc… [+1626 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thefrisky.com"
+      },
+      "author": "Petar Mikonoss",
+      "title": "6 Payment Solutions for the Online Gaming Industry",
+      "description": "Online payments are very popular in 2020, and since a lot of people are trying to earn through…\nThe post 6 Payment Solutions for the Online Gaming Industry appeared first on The Frisky.",
+      "url": "https://thefrisky.com/payment-solutions-for-the-online-gaming-industry/",
+      "urlToImage": "https://thefrisky.com/wp-content/uploads/2020/09/gaming-payment.jpg",
+      "publishedAt": "2020-09-21T10:49:55Z",
+      "content": "Online payments are very popular in 2020, and since a lot of people are trying to earn through the Internet after the global pandemic, payment solution providers are becoming even more valuable and a… [+6219 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "IOL"
+      },
+      "author": "Brandstories",
+      "title": "How to choose the best Bitcoin Android application for first-time investors - IOL",
+      "description": "If you have decided to invest in bitcoin, you can download a Bitcoin application from the playstore and start investing.",
+      "url": "https://www.iol.co.za/business-report/markets/currencies/how-to-choose-the-best-bitcoin-android-application-for-first-time-investors-ca7f0d73-ebfd-4ea3-b250-65b61d11d0c8",
+      "urlToImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAoCAYAAADjT+RAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQ0SURBVHgB7ZvLTxNRFMY/Wipo8YGgYMEHiS+IJvhYoKhhwSOyQdzoxmiIujEuTPwLNDEmxr3RxBh3ujIq8bEwukKJiZKiRo2QGAXkUaAI2Eqp53in6bSd6bTDJE6d+0u+NB3OFLjf3HPunTnN83q9g7W1tcOwKX6/fzgYDDbBidTV1fVEbUxlZeUTOBQXJLYlH84jT+NYFMbwWC1SxJ8RVjSXwfmmfqfTzOFBKiWtVB37RRolTeucw9mljLSWtIVUo5z/ifReef2ufI4W+Ur8CtWxGVJAedXHYTWnkHQZ4qqN6QVpr068B8KMTojBj2poknSMtFTnM5aRziSd001qgQGy5qRnJ+kqqZlUoBPDg3+LdBIi5VmGNEcfL+k8qQHx9P8bIoV9hkhLMVxK7AFYiBMXBJnCs6YaIhXG6CLdJo2Q6iFmS6x+cVo7QnpGmocFmDYnGokgMjGB8MioYaynpASe0hIqx3nIIQ6SylXvuXifI72FGPwHpHWko8rPeabtJ62BmF0LxrQ5c2MBjNy7j0DnI8PY8tMdKGlpRl5+zkxUN2kXqVh17AtpAPFZwYX9OeLmuJR4Pu/fmhMJhTDb14fJl68MY0sPtdG/kslWwjZwiipCYk3uJYWS4t4kvefxLIdFyAWBNpSDU1ZeHyA2nGreIbG+sDmrYRHSHG04PXmSjgWRWuh546o2jNPhKliENEcb3s17kD1szkpYhDRHm8UwV495OeqFRUhzrMeyMZXm2Bhpjo0xvc8JRefR73bBv7zIMLbI48Yq2ue4IckG0+ZMzc+jKxzC3ekpw1jfXPjvfXdpTnaYv31DGpqZRu/ggGFsYHYWOXV/wCbImmNjpDk2RppjPZY8y2GkOdrwPbMIsicK/UaRrJHmaDMB8Ug6E9RPENnQMViENEebcYieNDXLkTpefB9NvUNgc4wfDWeINEcbbt5INmczUjtwtiNxDNmcH7AI0/ucwsJCVNfUoLW11TC2qqoKLldOXQc/Sby75sGOzYxtSDVnR9J7jh+CRZg2p7i4GIfb29HU2GgYW1FRAbc7p+4P8CC/Ju2GeCrKbCL5IGYG78H5amtQnRNrMOw2/ngsIW2FqG16fDNtTkFBAXw+H/5jHpPaEDeHB/Qi6SFpkLSHpP5qCqfBpxBtU0asJ50ldaSJuSb71vTh5g3uG9iIeO9aA0S/NK/kuOda3Z3DqfAOMtvnFClKR5k0Rx/er1yA6AnYB1ECuOZs0IjllHYJounQMuRqLT08c06QuJk+pBPDjR/HSTeQusJbEE6bOTzAV0jXVcd4QAM68bww+Eo6hcSvgHAd+ojMvgLC5t0kGXdfJjLuNHM4/fAOPqBxPN05vADgQs+NhdyGy3cFuO6ElVejJyKzpH5k+bc6teaYebw0p2gG5sj6d8qaY2Py/X7/6vr6+h7YlGAw6NgL6A8CpilfcZYUeQAAAABJRU5ErkJggg==",
+      "publishedAt": "2020-09-21T10:13:17Z",
+      "content": "By Brandstories43m ago\r\nWarren Buffet, a successful investor, advises that you should never invest in a business, you cant understand. So, you should first understand the industry and answer some cru… [+2763 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "newsBTC"
+      },
+      "author": "Nick Chong",
+      "title": "This Statistic Shows How Small Ethereum’s DeFi Space Really Is",
+      "description": "Ethereum’s decentralized finance space has seen parabolic growth since the start of 2020. In the past nine months, the value of coins locked in DeFi contracts has surged from around $500 million to $10 billion — a statistic that may actually undershoot true v…",
+      "url": "https://www.newsbtc.com/2020/09/21/this-statistic-shows-how-small-ethereums-defi-space-really-is/",
+      "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2020/07/Depositphotos_25021863_xl-2015-scaled.jpg",
+      "publishedAt": "2020-09-21T10:00:17Z",
+      "content": "Ethereum’s decentralized finance space has seen parabolic growth since the start of 2020. In the past nine months, the value of coins locked in DeFi contracts has surged from around $500 million to $… [+2862 chars]"
+    }
+  ]
+}

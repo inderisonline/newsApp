@@ -24,7 +24,7 @@ buildscript {
         roomVersion = '2.3.0-alpha02'
         pagingVersion = '2.1.0'
         gsonVersion = '2.8.2'
-        okhttp = '4.4.0'
+        okhttp = '3.8.1'
         retrofit = '2.6.2'
         stetho = '1.5.1'
         timberVersion = '4.7.1'
