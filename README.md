@@ -7,4 +7,5 @@ This app is built with the following coding standard:
 * 100%  built in kotlin(coroutines for non-ui thread operations)
 * Room is used to add offline support
 * Retrofit for Networking
+* Android Paging library is used
 * Glide for image loading 
